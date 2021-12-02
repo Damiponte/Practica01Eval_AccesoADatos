@@ -8,6 +8,7 @@ import java.util.stream.Stream;
 public class Principal {
 
 	public static void main(String[] args) throws IOException {
+		
 		ArrayList<Empleados> listaEmpleados = new ArrayList<Empleados>();
 		ArrayList<Departamentos> listaDepartamentos = new ArrayList<Departamentos>();
 		
@@ -17,8 +18,9 @@ public class Principal {
 		Stream<String> lineasEmpleados = bufrEmpleados.lines();
 		Stream<String> lineasDepartamentos = bufrDepartamentos.lines();
 		
-		lineasEmpleados.forEach()
-			
-			
+		lineasEmpleados.forEach(linea->{
+			String[] empleados = linea.split(",");
+			listaEmpleados.add(new Emppleados(Integer))
+		});	
 	}
 }
