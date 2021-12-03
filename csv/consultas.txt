@@ -1,0 +1,12 @@
+Compras
+RRHH
+Ventas
+
+**********
+
+Codigo: 3000
+Nombre: Menganito
+Apellido: Ap3
+Puesto: Trabajo3
+Salario: 1200
+Codigo Departamento: 20
